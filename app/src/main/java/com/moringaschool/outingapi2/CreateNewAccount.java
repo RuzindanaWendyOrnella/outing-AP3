@@ -23,9 +23,9 @@ import butterknife.ButterKnife;
 
 public class CreateNewAccount extends AppCompatActivity  implements View.OnClickListener{
     @BindView(R.id.createUserButton) Button mCreate;
-    @BindView(R.id.nameEditText) EditText mNameEditText;
-    @BindView(R.id.emailEditText) EditText mEmailEditText;
-    @BindView(R.id.passwordEditText) EditText mPasswordEditText;
+    @BindView(R.id.nameOfUserEditText) EditText mNameOfUserEditText;
+    @BindView(R.id.emailOfUserEditText) EditText mEmailOfUserEditText;
+    @BindView(R.id.passwordOfUserEditText) EditText mPassworOfUserdEditText;
     @BindView(R.id.confirmPasswordEditText) EditText mConfirmPasswordEditText;
     @BindView(R.id.loginTextView) TextView mLoginTextView;
     public static final String TAG = CreateNewAccount.class.getSimpleName();
@@ -60,9 +60,9 @@ public class CreateNewAccount extends AppCompatActivity  implements View.OnClick
                 }
 
         private void createNewUser() {
-            final String name = mNameEditText.getText().toString().trim();
-            final String email = mEmailEditText.getText().toString().trim();
-            String password = mPasswordEditText.getText().toString().trim();
+            final String name = mNameOfUserEditText.getText().toString().trim();
+            final String email = mEmailOfUserEditText.getText().toString().trim();
+            String password = mPassworOfUserdEditText.getText().toString().trim();
             String confirmPassword = mConfirmPasswordEditText.getText().toString().trim();
 
             mAuth.createUserWithEmailAndPassword(email, password)
