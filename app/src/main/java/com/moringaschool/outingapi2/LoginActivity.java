@@ -83,7 +83,7 @@ public class LoginActivity extends AppCompatActivity  implements View.OnClickLis
                 return;
             }
             if (password.equals("")) {
-                mPasswordEditText.setError("Password cannot be blank");
+                mPasswordEditText.setError("Password cannot be Empty");
                 return;
             }
             mAuthProgressDialog.show();
