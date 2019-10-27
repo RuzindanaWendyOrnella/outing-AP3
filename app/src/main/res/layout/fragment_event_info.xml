@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -46,16 +47,6 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-           <!-- <ListView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/listviewHuge"/>-->
-            <!--<androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/recyclerView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_marginTop="16dp" />-->
             <LinearLayout
 
         android:orientation="vertical"
@@ -109,16 +100,6 @@
 
             </LinearLayout>
 
-
-           <!-- <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Save Restaurant"
-                android:id="@+id/saveRestaurantButton"
-                android:layout_alignParentBottom="true"
-                android:background="@color/colorAccent"
-                android:textColor="@color/colorPerfect"
-                android:textSize="15sp" />-->
         </RelativeLayout>
     </LinearLayout>
 </FrameLayout>

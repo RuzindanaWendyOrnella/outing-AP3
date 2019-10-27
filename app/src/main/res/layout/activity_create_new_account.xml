@@ -1,3 +1,5 @@
+<!--This is an xml file that helps me to display the create account form using the relative layout
+and linear layout to position edittexts accordingly-->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
