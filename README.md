@@ -11,12 +11,19 @@ programmmer at wecode.
 *Android Studio
 * git-hub
 ## Sample
+
 Firstly,You create an account
+
 <img src="/Images/createaccount.png">
+
 Then after you save to the user to the firebase
+
 <img src="/Images/Firebase.png">
+
 And after you can login with your created account
+
 <img src="/Images/login.png">
+
 After you get to enter in your account project
 <img src="/Images/Screenshot_2019-10-27-18-42-39.png">
 
