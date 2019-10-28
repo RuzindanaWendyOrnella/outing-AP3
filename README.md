@@ -1,7 +1,8 @@
+
 # Outing-API2
 # {Brief description of project}
 this is my android app that allows a user to Save their informations to the database.
-22/10/2019
+28/10/2019
 #### By 
 Ruzindana Wendy Ornella,
 programmmer at wecode.
@@ -24,9 +25,10 @@ After you get to enter in your account project
 * firebase
 ## Support and contact details
 if you have any issue please contact me at ruzindanawendy@gmail.com.
+
 ### License
 MIT License
-Copyright (c) [2019] [Ruzindana Wendy ornella]
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
